@@ -61,7 +61,8 @@ def main():
             new_password = input("Enter new password: ")
             reset_password(username, new_password)
         elif choice == "5":
-            # Vulnerability 5: Resource leak (Database connection never closed properly)
+            # Vulnerability 5: Resource leak (Database connection never closed properly).
+            
             print("Exiting...")
             break
         else:
